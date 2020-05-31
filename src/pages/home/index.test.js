@@ -17,9 +17,7 @@ afterEach(cleanup);
 
 describe("Home", () => {
     it("should check search button", async () => {
-        const { getByText, getByPlaceholderText, container } = renderWithRedux(
-            <Home />
-        );
+        const { getByText, getByPlaceholderText } = renderWithRedux(<Home />);
 
         const input = getByPlaceholderText("Enter Keyword");
         fireEvent.change(input, {
@@ -28,7 +26,6 @@ describe("Home", () => {
 
         const searchButton = getByText("Search");
         fireEvent.click(searchButton);
-        console.log(container.innerHTML);
 
         expect(screen.getByText("Loading...")).toBeInTheDocument();
     });
