@@ -1,5 +1,6 @@
 # Chilaka Michael Obinna - GiphyAPI Search
-A simple, responsive giphy browser. On initial load this site will show all of the most recently trending Giphy gifs based on the API. 
+- Implemented a simple, responsive .gif search App based on the Giphy API. Upon entering a search term into the text input and clicking on the search button the app queries the Giphy API and display related .gifs below the text input. 
+- onClick of any of the gif, it redirects to another page showing the details of the gif
 
 or checkout and run it locally with
 `npm install` and `npm run start`
