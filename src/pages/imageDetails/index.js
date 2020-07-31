@@ -16,7 +16,8 @@ class ImageDetails extends Component {
     }
     getImage(id) {
         fetch(
-            `https://api.giphy.com/v1/gifs/${id}?api_key=AczTVuJ5qQDXC4PrEwvS4Hr4qyNVGIGQ`
+            `https://api.giphy.com/v1/gifs/${id}?api_key=deokzgUjxm6QHQdp3H3aca1LSZcCpucc`
+            // `https://api.giphy.com/v1/gifs/${id}?api_key=AczTVuJ5qQDXC4PrEwvS4Hr4qyNVGIGQ`
         )
             .then((data) => data.json())
             .then((data) => {
