@@ -1,4 +1,4 @@
-# Chilaka Michael Obinna - Giphy Search
+# Chilaka Michael Obinna - GiphyAPI Search
 A simple, responsive giphy browser. On initial load this site will show all of the most recently trending Giphy gifs based on the API. Users can select a gif to see it's full-quality version and supplied title. Searching for a gif will return the matching set from the giphy servers. Scrolling to the bottom of the page will load additional gifs as well.
 
 
